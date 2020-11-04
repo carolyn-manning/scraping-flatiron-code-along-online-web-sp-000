@@ -25,6 +25,12 @@ class Scraper
     get_page.css("#posts-holder")
   end
 
+  def make_courses
+    get_courses.each do |course| 
+      course = Course.new
+    end 
+  end 
+
 
 
 end
