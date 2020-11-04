@@ -22,7 +22,9 @@ class Scraper
   end
 
   def get_courses
-    get_page.css(".posts-holder")
+    get_page.css(".psts-holder")
   end
+
+  def make_
 
 end
