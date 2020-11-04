@@ -26,7 +26,7 @@ class Scraper
   end
 
   def make_courses
-    get_courses.each do |course|
+    get_courses.collect do |course|
       course.text
     end
   end
