@@ -16,9 +16,9 @@ class Scraper
     end
   end
 
-  def get_page 
+  def get_page
     html = open('http://www.google.com')
     doc = Nokogiri::HTML(html)
-  end 
+  end
 
 end
