@@ -25,6 +25,6 @@ class Scraper
     get_page.css(".posts-holder")
   end
 
-  
+
 
 end
