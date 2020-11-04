@@ -25,6 +25,6 @@ class Scraper
     get_page.css(".psts-holder")
   end
 
-  def make_
+  
 
 end
