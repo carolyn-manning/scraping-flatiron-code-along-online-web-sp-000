@@ -22,7 +22,7 @@ class Scraper
   end
 
   def get_courses
-    get_page.css(".post-holder")
+    get_page.css(".posts-holder")
   end
 
   def make_courses
@@ -33,6 +33,9 @@ class Scraper
        course.description = post.css("p").text
      end
    end
+    end
+  end
+
 
 
 end
